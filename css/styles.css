@@ -1,4 +1,6 @@
 /* Basic CSS syntax, selector {property: value;} */
+/* There are some cool pseudoclasses that effect styles for a certain state,
+    e.g. a:hover */
 
 body {
     background-color: #EAF6F6;
@@ -23,7 +25,8 @@ h3 {
 
 /* In general, more specific styling overwrites the general ones */
 /* Classes vs IDs
-    We can have only one instance of an ID, but multiple elements in a class
+    We can have only one instance of an ID, but multiple elements in a class.
+    HTML elements can have more than 1 class as well! Cannot do this for ID.
 */
 
 /* Above use tag selectors, we can use class selectors if we specified
